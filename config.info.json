@@ -1,0 +1,64 @@
+{
+    "description": {
+        "en": "Here you can find all settings for this modification.",
+        "ru": "Тут можно найти все настройки этой модификации."
+    },
+    
+    "properties": {
+        "enabled": {
+            "name": {
+                "en": "Launch",
+                "ru": "Запуск"
+            },
+            "description": {
+                "en": "Changes launch state of modification; if disabled, mod willn't be launched.",
+                "ru": "Меняет состояния запускаемости мода, если отключено - мод запущен не будет."
+            },
+            "index": 0
+        },
+        
+        "atlas_modifier": {
+			"name": {
+				"en": "Atlas Modifier",
+				"ru": "Размер атласа"
+			},
+			"description": {
+				"en": "Limits size of textures by one of coordinates, determines overall speed of texture generation and their quality by formula f(x)=16+x*16",
+				"ru": "Ограничивает размер текстур по одной из координат, определяет общую скорость генерации текстур и их качество по формуле f(x)=16+x*16"
+			},
+			
+			"index": 1,
+			"type": "SeekBar",
+			"min": 0,
+			"max": 7
+		},
+		
+		"random_encounter": {
+			"name": {
+				"en": "Random Encounter",
+				"ru": "Случайные вариации"
+			},
+			"description": {
+				"en": "In addition to base textures with faces of greatest people, a certain amount of stuffing is generated, non-toxic until you touch it",
+				"ru": "Помимо базовых текстур с ебалами величайших людей генерируется некоторое количество вбросов, не токсично пока не тронешь"
+			},
+			
+			"index": 2,
+			"type": "SeekBar",
+			"min": 1,
+			"max": 16
+		},
+		
+		"atlas_clean": {
+			"name": {
+				"en": "Atlas Clean",
+				"ru": "Чистый атлас"
+			},
+			"description": {
+				"en": "To reduce overload with frequent changes in modpack configuration, it avoids a large amount of resources, a rather long process",
+				"ru": "Для уменьшения нагрузки при частых изменениях конфигурации сборки позволяет избежать большого количества ресурсов, достаточно долгий процесс"
+			},
+			"index": 2
+		}
+    }
+}
