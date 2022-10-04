@@ -1,0 +1,6 @@
+{
+	"enabled": true,
+	"atlas_modifier": 2,
+	"random_encounter": 5,
+	"atlas_clean": false
+}

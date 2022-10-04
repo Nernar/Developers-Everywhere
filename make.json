@@ -1,0 +1,31 @@
+{
+	"info": {
+		"name": "Developers Everywhere",
+		"version": "1.0",
+		"author": "Nernar",
+		"description": "What? Nothing.",
+		"clientOnly": true,
+		"instantLaunch": true
+	},
+	"api": "Preloader",
+	"resources": [
+		{
+			"path": "assets/resources",
+			"type": "resource_directory"
+		}
+	],
+	"sources": [
+		{
+			"type": "preloader",
+			"language": "javascript",
+			"source": "something.js"
+		}
+	],
+	"compile": [],
+	"additional": [
+		{
+			"source": "assets/root/*",
+			"targetDir": "."
+		}
+	]
+}
