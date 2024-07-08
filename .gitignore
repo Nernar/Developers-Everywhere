@@ -1,4 +1,3 @@
-output
+.dex
 tsconfig.json
 *.log
-*.icmod

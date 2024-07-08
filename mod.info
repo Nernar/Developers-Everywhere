@@ -1,0 +1,8 @@
+{
+	"name": "Developers Everywhere",
+	"version": "1.0",
+	"author": "Nernar",
+	"description": "What? Nothing.",
+	"clientOnly": true,
+	"instantLaunch": true
+}
